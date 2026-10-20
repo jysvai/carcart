@@ -2,7 +2,7 @@
 <html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>고양이 썰 · 고양이 장바구니</title>
 <meta name="description" content="요즘 다들 떠드는 이야기를 샴 고양이 말투로 다시 풀어 주는 3컷 썰. 스레드 @carcartcc에 하루 세 편."><link rel="canonical" href="https://jysvai.github.io/carcart/ssul.html">
-<meta property="og:type" content="website"><meta property="og:url" content="https://jysvai.github.io/carcart/ssul.html"><meta property="og:title" content="고양이 썰 · 고양이 장바구니">
+<meta property="og:type" content="article"><meta property="og:url" content="https://jysvai.github.io/carcart/ssul.html"><meta property="og:title" content="고양이 썰 · 고양이 장바구니">
 <meta property="og:description" content="요즘 다들 떠드는 이야기를 샴 고양이 말투로 다시 풀어 주는 3컷 썰. 스레드 @carcartcc에 하루 세 편."><meta property="og:image" content="https://jysvai.github.io/carcart/img/ssul/20261020_16_ssul1.jpg">
 <meta name="twitter:card" content="summary_large_image"><meta name="theme-color" content="#d6f2e7">
 <link rel="icon" href="avatar.jpg">
@@ -125,25 +125,41 @@ footer a{color:var(--deep)}
 .tabs{display:flex;gap:4px;background:var(--card);border:1px solid var(--line);border-radius:999px;padding:4px;margin:0 0 12px;box-shadow:var(--shadow)}
 .tabs a{flex:1;text-align:center;padding:9px 8px;border-radius:999px;text-decoration:none;color:var(--sub);font-weight:800;font-size:.92rem;white-space:nowrap}
 .tabs a.on{background:var(--deep);color:var(--on-deep)}.tabs i{font-style:normal;font-size:.74rem;opacity:.85}
-.ssul .sl:first-child{margin-top:0}
-.ssul .sl{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:14px;margin-top:12px;box-shadow:var(--shadow)}
-.sl-hd{display:flex;justify-content:space-between;align-items:center;gap:8px}
 .sl-k{font-size:.74rem;font-weight:800;color:var(--deep);background:var(--mint);border-radius:999px;padding:2px 10px}
-.sl-hd time{font-size:.75rem;color:var(--sub)}
-.sl h3{margin:8px 0 10px;font-size:1.08rem;letter-spacing:-.02em}
-.sl-ps{display:flex;gap:8px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:4px;-webkit-overflow-scrolling:touch}
-.sl-ps img{flex:none;width:min(78%,320px);aspect-ratio:4/5;object-fit:cover;border-radius:16px;scroll-snap-align:start;background:var(--mint)}
-.sl-t{white-space:pre-line;margin:12px 0 0;line-height:1.7;max-height:10.2em;overflow:hidden;-webkit-mask-image:linear-gradient(#000 70%,transparent);mask-image:linear-gradient(#000 70%,transparent)}
-.sl.open .sl-t{max-height:none;-webkit-mask-image:none;mask-image:none}.sl.open .sl-more{display:none}
-.sl-more{border:0;background:none;color:var(--deep);font-weight:800;padding:4px 0;cursor:pointer}
-.sl-src{margin:4px 0 0;font-size:.75rem;color:var(--sub)}
-.sl-ad{position:relative;margin-top:12px;border:1px dashed var(--mint2);border-radius:16px;padding:10px}
+.pm{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:.76rem;color:var(--sub);margin:0}
+.pm .new{background:var(--red);color:#fff;font-size:.66rem;padding:1px 7px;border-radius:999px}
+.pf{display:grid;grid-template-columns:1fr;gap:12px;background:var(--card);border:1px solid var(--line);border-radius:24px;padding:12px;text-decoration:none;color:var(--ink);box-shadow:var(--shadow);margin-top:14px}
+.pf img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:top;border-radius:18px;max-height:560px;background:var(--mint)}
+.pf h2{margin:8px 0 6px;font-size:1.3rem;letter-spacing:-.02em;line-height:1.3}.pf p{margin:0;color:var(--sub);line-height:1.6}
+.pf-go{display:inline-block;margin-top:10px;color:var(--deep);font-weight:800}
+@media (min-width:720px){.pf{grid-template-columns:minmax(0,340px) 1fr;align-items:center;padding:16px}}
+.pcs{display:flex;gap:6px;overflow-x:auto;margin:0 0 10px;padding-bottom:2px}
+.pc{flex:none;border:1px solid var(--line);background:var(--card);color:var(--ink);padding:6px 12px;border-radius:999px;font-size:.86rem;cursor:pointer}
+.pc.on{background:var(--deep);color:var(--on-deep);border-color:var(--deep)}.pc i{font-style:normal;opacity:.75;font-size:.76rem}
+.pl{display:grid;grid-template-columns:1fr;gap:10px}@media (min-width:720px){.pl{grid-template-columns:1fr 1fr}}
+.pr{display:flex;gap:12px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:18px;padding:10px;text-decoration:none;color:var(--ink);min-width:0}
+.pr img{width:88px;height:88px;object-fit:cover;object-position:top;border-radius:14px;flex:none;background:var(--mint)}
+.pr-tx{display:flex;flex-direction:column;gap:4px;min-width:0}.pr-t{font-size:.98rem;line-height:1.35}
+.pr-x{color:var(--sub);font-size:.82rem;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.pl-none{color:var(--sub);text-align:center;margin:10px 0}
+.post{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:18px 16px;box-shadow:var(--shadow)}
+.crumb{font-size:.82rem;color:var(--sub)}.crumb a{color:var(--deep);text-decoration:none;font-weight:800}
+.post h1{margin:10px 0 6px;font-size:1.5rem;letter-spacing:-.02em;line-height:1.3}
+.post figure{margin:16px auto;max-width:560px}.post figure img{display:block;width:100%;height:auto;border-radius:18px;background:var(--mint)}
+.post .cp{max-width:560px;margin-left:auto;margin-right:auto}
+.post-t{white-space:pre-line;line-height:1.85;font-size:1.03rem;max-width:620px;margin:20px auto 0}
+.post .sl-src,.post .sl-ad,.post-btns{max-width:620px;margin-left:auto;margin-right:auto}.post-btns{margin-top:16px}
+.sl-src{margin:8px 0 0;font-size:.78rem;color:var(--sub)}
+.sl-ad{position:relative;margin-top:14px;border:1px dashed var(--mint2);border-radius:16px;padding:10px}
 .sl-ad .cp-tag{position:absolute;top:8px;right:10px}
 .sl-adl{display:flex;gap:10px;align-items:center;text-decoration:none;color:var(--ink)}
 .sl-adl img{width:64px;height:64px;object-fit:cover;border-radius:12px;background:#fff;flex:none}
 .sl-adl span{display:flex;flex-direction:column;min-width:0;padding-right:36px}.sl-adl small{color:var(--sub);font-size:.78rem}
 .sl-adl b{font-size:.88rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.sl-adl i{font-style:normal;color:var(--deep);font-size:.8rem;font-weight:800}
-.sl-btns{margin-top:12px}.ssul .more{margin-top:12px}.ssul .hidden-x{display:none}.ssul.all .hidden-x{display:block}
+.pn{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:14px}
+.pn a{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:10px 12px;text-decoration:none;color:var(--sub);font-size:.8rem;min-width:0}
+.pn a b{display:block;color:var(--ink);font-size:.9rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pn .nx{text-align:right;grid-column:2}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.card,.card.pick{transition:none;animation:none}}
 </style></head><body><div class="wrap">
 <nav class="tabs" aria-label="페이지"><a href="./">🛒 고양이가 고른 거</a><a href="ssul.html" class="on" aria-current="page">🐾 고양이 썰 <i>1</i></a></nav>
@@ -153,39 +169,29 @@ footer a{color:var(--deep)}
 <div class="btns"><a class="btn" href="https://www.threads.com/@carcartcc" target="_blank" rel="noopener">스레드 @carcartcc</a>
 <a class="btn ghost" href="./">🛒 고양이가 고른 거</a></div></div></header>
 <p class="ad">이 페이지의 쿠팡 배너와 상품 링크는 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</p>
-<section class="blk ssul" id="ssul"><article class="sl" id="s18150749665480992"><div class="sl-hd"><span class="sl-k">📰 시사 풍자</span><time>10월 20일</time></div><h3>국감장에 빨대가 두 번 등장했다</h3><div class="sl-ps"><img src="img/ssul/20261020_16_ssul1.jpg" alt="국감장에 빨대가 먼저 등장했다" loading="lazy"><img src="img/ssul/20261020_16_ssul2.jpg" alt="사과 다음엔 옹호가, 그다음엔 경고가" loading="lazy"><img src="img/ssul/20261020_16_ssul3.jpg" alt="사과는 미안해서 하는 거다냥" loading="lazy"></div><div class="sl-t">국감장에 빨대가 두 번 나왔다냥.
-
-13일 경기도 국감에서 추미애 지사가
-소방 재정을 &#x27;빨대&#x27;에 빗댔어.
-소방노조는 사퇴까지 요구했고,
-사과한다면서 나온 말이 &quot;사과를 바라시니 사과한다&quot;.
-결국 근조 리본 달고 &quot;소방관 여러분께도 진심으로 사과드립니다&quot;라고 다시 고개를 숙였대.
-
-그런데 19일 경기도 국감에서 부승찬 의원이 옹호한다며
-&quot;재정을 진짜 쭉쭉 빨아먹는 것 아닙니까?&quot;
-김민석 대표는 엄중 경고하고 윤리심판원 직권조사를 지시했어.
-
-순직한 소방관의 명복을 빈다.
-
-고양이 생각엔 사과는 상대가 바라서 하는 게 아니라 미안해서 하는 거다냥.</div><button class="sl-more" type="button">더 읽기</button><p class="sl-src">출처: MBC</p><div class="btns sl-btns"><a class="btn ghost" href="https://www.threads.com/@carcartcc/post/DetWP-5lJ0x" target="_blank" rel="noopener">💬 스레드에서 댓글 보기</a><button class="btn ghost sl-share" type="button" data-s="18150749665480992">🔗 이 썰 공유</button></div></article></section>
+<a class="pf" href="ssul/18150749665480992.html"><img src="img/ssul/20261020_16_ssul1.jpg" alt="국감장에 빨대가 두 번 등장했다"><div><span class="pm"><b class="sl-k">📰 시사 풍자</b><time>10월 20일</time><b class="new">NEW</b></span><h2>국감장에 빨대가 두 번 등장했다</h2><p>국감장에 빨대가 두 번 나왔다냥. 13일 경기도 국감에서 추미애 지사가 소방 재정을 &#x27;빨대&#x27;에 빗댔어. 소방노조는 사퇴까지 요구했고, 사과한다면서 나온 말이 &quot;사…</p><span class="pf-go">이어서 읽기 →</span></div></a>
+<section class="cp "><div class="cp-hd"><b>🛒 썰 보다가 쉬어 가는 추천</b><span class="cp-tag">광고</span></div><div class="cp-ad" data-h="140"></div><p class="cp-note">쿠팡 파트너스 광고예요. 이를 통해 구매가 이뤄지면 일정액의 수수료를 제공받습니다.</p></section>
+<section class="blk" id="ssul"><div class="hd"><h2>📚 지난 썰</h2><p>제목 눌러서 하나씩 읽어 봐</p></div>
+<div class="pcs"><button class="pc on" data-k="">전체 <i>0</i></button></div>
+<div class="pl" id="pl"></div>
+<p id="pl-none" class="pl-none" hidden>다음 썰 곧 올라와 🐾</p></section>
 <section class="cp "><div class="cp-hd"><b>🐾 집사 취향대로 쿠팡이 골라 준 추천</b><span class="cp-tag">광고</span></div><div class="cp-ad" data-h="140"></div><p class="cp-note">쿠팡 파트너스 광고예요. 이를 통해 구매가 이뤄지면 일정액의 수수료를 제공받습니다.</p></section>
 <section class="cp"><div class="cp-hd"><b>🔎 썰 보다가 생각난 거 있으면 쿠팡에서 검색</b><span class="cp-tag">광고</span></div><iframe src="https://coupa.ng/cqhI9Q" width="100%" height="75" frameborder="0" scrolling="no" referrerpolicy="unsafe-url" loading="lazy" title="쿠팡 검색"></iframe><p class="cp-note">쿠팡 파트너스 광고예요. 이를 통해 구매가 이뤄지면 일정액의 수수료를 제공받습니다.</p></section>
 <footer>이 페이지의 상품 링크는 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.<br>썰 그림은 AI로 만든 이미지예요. 썰은 기사로 소개된 화제를 고양이 말투로 각색한 글이고, 풍자는 공인의 공개 발언을 다뤄요.<br>
-<a href="https://www.threads.com/@carcartcc" target="_blank" rel="noopener">스레드 @carcartcc</a> · <a href="./">고양이가 고른 거</a> · <!--updated-->업데이트 10월 20일 17:22</footer>
+<a href="https://www.threads.com/@carcartcc" target="_blank" rel="noopener">스레드 @carcartcc</a> · <a href="./">고양이가 고른 거</a> · <!--updated-->업데이트 10월 20일 17:46</footer>
 </div>
 <button id="top" aria-label="맨 위로">↑</button><div id="toast" role="status"><img src="img/cat_thumbsup.jpg" alt=""><span></span></div>
 <script>
 const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
-function toast(m){const el=$('#toast');el.querySelector('span').textContent=m;el.classList.add('show');clearTimeout(el._t);el._t=setTimeout(()=>el.classList.remove('show'),2200)}
-$$('.sl-more').forEach(b=>b.onclick=()=>b.closest('.sl').classList.add('open'));
-$$('.sl-t').forEach(t=>{if(t.scrollHeight<=t.clientHeight+4)t.closest('.sl').classList.add('open')});
-const slAll=$('#sl-all');if(slAll)slAll.onclick=()=>{$$('.sl[hidden]').forEach(x=>x.hidden=false);$('#ssul').classList.add('all');slAll.remove()};
-$$('.sl-share').forEach(b=>b.onclick=async()=>{const u=location.origin+location.pathname+'#s'+b.dataset.s,ti=b.closest('.sl').querySelector('h3').textContent;
- try{if(navigator.share){await navigator.share({title:ti,url:u});return}await navigator.clipboard.writeText(u);toast('썰 링크 복사했어')}catch(e){}});
+const rows=$$('#pl .pr'),more=$('#pl-more'),PAGE=12;let k='',shown=PAGE;
+function render(){let n=0;rows.forEach(r=>{const ok=!k||r.dataset.k===k;if(ok)n++;r.hidden=!ok||n>shown});
+ if(more){more.hidden=n<=shown;more.textContent='썰 더 보기 ('+Math.max(0,n-shown)+'개 더)'}
+ $('#pl-none').hidden=n>0}
+$$('.pc').forEach(b=>b.onclick=()=>{k=b.dataset.k;shown=PAGE;$$('.pc').forEach(x=>x.classList.toggle('on',x===b));render()});
+if(more)more.onclick=()=>{shown+=PAGE;render()};
+const m=location.hash.match(/^#s([0-9]+)$/);if(m)location.replace('ssul/'+m[1]+'.html');
+render();
 const up=$('#top');addEventListener('scroll',()=>up.classList.toggle('show',scrollY>900),{passive:true});up.onclick=()=>scrollTo(0,0);
-function slGo(){const m=location.hash.match(/^#(s[0-9]+)$/),el=m&&document.getElementById(m[1]);if(!el)return;
- if(el.hidden&&slAll)slAll.click();setTimeout(()=>el.scrollIntoView({block:'start'}),30)}
-addEventListener('hashchange',slGo);slGo();
 
 const CPB="https://ads-partners.coupang.com/widgets.html?id=1041376&template=carousel&trackingCode=AF2078358&subId=&width={w}&height={h}&tsource=";
 function fill(el){if(el.firstChild)return;const w=Math.max(300,Math.min(1000,Math.round(el.clientWidth||360))),h=+el.dataset.h||140;
